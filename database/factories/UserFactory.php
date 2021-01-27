@@ -37,7 +37,6 @@ $factory->define(User::class, function (Faker $faker) {
         'water_intake' => $faker->realText($maxNbChars = 100),
         'sleep' => $faker->realText($maxNbChars = 100),
 
-        'current_weight' => $faker->text,
 
         'email' => $faker->unique()->safeEmail,
         'email_verified_at' => now(),
